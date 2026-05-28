@@ -16,11 +16,14 @@
     "yes": "Oui",
     "no": "Non",
     "or": "ou",
-    "and": "et"
+    "and": "et",
+    "comingSoon": "Bientôt disponible"
   },
   "onboarding": {
+    "skip": "Passer",
     "welcome": {
       "title": "La plateforme de garde d'enfants de confiance",
+      "rotatorPrefix": "Approuvée par",
       "rotators": ["les familles", "les baby-sitters", "les nounous"],
       "cta": "Commencer"
     },
@@ -46,6 +49,12 @@
     }
   },
   "auth": {
+    "required": "Champ requis",
+    "invalidCredentials": "E-mail ou mot de passe incorrect",
+    "noAccount": "Pas encore de compte ?",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "accountTypeTitle": "Je suis…",
+    "accountTypeSubtitle": "Choisissez votre type de compte",
     "joinTitle": "Rejoignez-nous",
     "joinSubtitle": "Identifiez-vous ou inscrivez-vous",
     "emailPlaceholder": "Adresse e-mail",
@@ -55,6 +64,10 @@
     "lastNameHint": "Doit correspondre à votre pièce d'identité officielle.",
     "emailHint": "Nous vous enverrons des e-mails concernant votre compte, la messagerie et l'assistance.",
     "forgotPassword": "Mot de passe oublié ?",
+    "resetTitle": "Réinitialiser le mot de passe",
+    "resetBody": "Saisissez votre adresse e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+    "resetSend": "Envoyer le lien",
+    "resetSent": "Si un compte existe pour cette adresse, un lien de réinitialisation vient d'être envoyé.",
     "signIn": "Se connecter",
     "signUp": "S'inscrire",
     "signOut": "Se déconnecter",

@@ -43,12 +43,12 @@ subject = "Activez votre compte Kido"
 content_path = "./supabase/templates/confirmation.html"
 
 [auth.external.google]
-enabled = false
+enabled = true
 client_id = "env(GOOGLE_CLIENT_ID)"
 secret = "env(GOOGLE_CLIENT_SECRET)"
 
 [auth.external.facebook]
-enabled = false
+enabled = true
 client_id = "env(FACEBOOK_APP_ID)"
 secret = "env(FACEBOOK_APP_SECRET)"
 

@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Kido",
-    "slug": "my-app",
-    "scheme": "my-app",
+    "slug": "Kido",
+    "scheme": "kido",
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "dz.Kido.app",
+      "bundleIdentifier": "dz.kido.app",
       "infoPlist": {
         "CFBundleAllowMixedLocalizations": true,
         "NSLocationWhenInUseUsageDescription": "Pour vous montrer les baby-sitters proches.",
@@ -23,7 +23,7 @@
       }
     },
     "android": {
-      "package": "dz.my-Kido.app",
+      "package": "dz.kido.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FBF7F2"
