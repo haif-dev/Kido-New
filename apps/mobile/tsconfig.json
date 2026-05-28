@@ -2,6 +2,7 @@
   "extends": "../../packages/config/tsconfig/react-native.json",
   "compilerOptions": {
     "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "paths": {
       "@/*": ["./*"],
       "@app/ui": ["../../packages/ui/src/index.ts"],

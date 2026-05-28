@@ -14,7 +14,7 @@ void i18next.use(initReactI18next).init({
   lng: initial,
   fallbackLng: DEFAULT_LOCALE,
   interpolation: { escapeValue: false },
-  compatibilityJSON: 'v4',
+  compatibilityJSON: 'v3',
 });
 
 // Apply RTL once — full effect requires app reload (see Expo docs).
