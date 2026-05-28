@@ -1,0 +1,124 @@
+{
+  "common": {
+    "appName": "Kido",
+    "continue": "Continuer",
+    "back": "Retour",
+    "next": "Suivant",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "search": "Rechercher",
+    "filters": "Filtres",
+    "loading": "Chargement…",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "yes": "Oui",
+    "no": "Non",
+    "or": "ou",
+    "and": "et"
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "La plateforme de garde d'enfants de confiance",
+      "rotators": ["les familles", "les baby-sitters", "les nounous"],
+      "cta": "Commencer"
+    },
+    "search": {
+      "title": "Recherchez",
+      "point1": "Trouvez une garde d'enfants ou un job de baby-sitting près de chez vous",
+      "point2": "Zoomez sur la carte pour voir qui habite à proximité",
+      "point3": "Filtrez selon vos besoins"
+    },
+    "connect": {
+      "title": "Connectez-vous",
+      "point1": "Échangez avec les baby-sitters par messagerie",
+      "point2": "Planifiez un entretien de présentation",
+      "point3": "Organisez les gardes d'enfants"
+    },
+    "trust": {
+      "title": "Sécurité et confiance",
+      "intro": "Notre plateforme est transparente pour que vous soyez certain·e que vos enfants sont entre de bonnes mains.",
+      "idVerification": "Vérification d'identité",
+      "criminalRecord": "Extrait de casier judiciaire",
+      "reviews": "Évaluations et recommandations",
+      "payments": "Paiements sécurisés"
+    }
+  },
+  "auth": {
+    "joinTitle": "Rejoignez-nous",
+    "joinSubtitle": "Identifiez-vous ou inscrivez-vous",
+    "emailPlaceholder": "Adresse e-mail",
+    "passwordPlaceholder": "Mot de passe",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "lastNameHint": "Doit correspondre à votre pièce d'identité officielle.",
+    "emailHint": "Nous vous enverrons des e-mails concernant votre compte, la messagerie et l'assistance.",
+    "forgotPassword": "Mot de passe oublié ?",
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "signOut": "Se déconnecter",
+    "continueWith": "ou continuer avec",
+    "welcomeBack": "Bon retour parmi nous, {{name}}",
+    "verifyEmailTitle": "Vérifiez votre e-mail",
+    "verifyEmailBody": "Nous avons envoyé un lien d'activation à {{email}}.",
+    "didntReceive": "Vous n'avez pas reçu d'e-mail ?",
+    "resend": "Renvoyer l'e-mail",
+    "resent": "E-mail d'activation renvoyé.",
+    "troubleshoot": {
+      "intro": "Si vous ne recevez pas l'e-mail dans quelques minutes :",
+      "spam": "L'e-mail est peut-être dans votre dossier spam",
+      "typo": "L'adresse e-mail saisie comporte peut-être une faute",
+      "other": "Vous avez peut-être utilisé une autre adresse",
+      "blocked": "Nous ne pouvons pas envoyer à cette adresse"
+    },
+    "completeSignUp": "Inscription complète",
+    "iAmSitter": "Je suis un·e baby-sitter",
+    "iAmNanny": "Je suis une nounou",
+    "iLookFor": "Je cherche un·e baby-sitter"
+  },
+  "terms": {
+    "title": "Avant de nous rejoindre",
+    "missionTitle": "Notre mission",
+    "missionBody": "Aider les parents et les baby-sitters à construire une communauté de confiance. Nous établissons des normes et attendons de nos membres qu'ils les respectent.",
+    "communityTitle": "Normes communautaires",
+    "communityBody": "J'accepte d'interagir avec les membres de la communauté avec respect et sans parti pris. Je communiquerai clairement et sincèrement, et respecterai les accords conclus.",
+    "communityRead": "J'ai lu et compris les normes communautaires.",
+    "tosTitle": "Conditions d'utilisation",
+    "tosBody": "J'accepte les Conditions générales d'utilisation et la Politique de confidentialité. Des conditions d'âge s'appliquent pour les baby-sitters.",
+    "marketingOptIn": "Je souhaite recevoir des promotions et des offres spéciales.",
+    "decline": "Refuser",
+    "accept": "Accepter"
+  },
+  "nav": {
+    "search": "Recherche",
+    "favorites": "Favoris",
+    "messages": "Messages",
+    "account": "Compte",
+    "babySitters": "Baby-sitters",
+    "jobs": "Offres d'emploi"
+  },
+  "search": {
+    "cityPlaceholder": "Ville ou code postal",
+    "moreResults": "Voir plus de {{count}} résultats",
+    "noResults": "Aucun résultat. Élargissez votre recherche.",
+    "familyFavorite": "Favori de la famille",
+    "experience": "Expérience",
+    "verified": "Vérifié",
+    "filters": {
+      "service": "Service recherché",
+      "ageGroups": "Âges des enfants",
+      "languages": "Langues",
+      "hourlyRate": "Tarif horaire (DZD)",
+      "verifiedOnly": "Profils vérifiés uniquement"
+    }
+  },
+  "email": {
+    "verifyAccount": {
+      "subject": "Activez votre compte {{appName}}",
+      "heading": "Bienvenue, {{name}}",
+      "body": "Confirmez votre adresse pour activer votre compte.",
+      "button": "Activer mon compte"
+    }
+  }
+}

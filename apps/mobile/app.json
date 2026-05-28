@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Kido",
+    "slug": "my-app",
+    "scheme": "my-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FBF7F2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dz.Kido.app",
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "NSLocationWhenInUseUsageDescription": "Pour vous montrer les baby-sitters proches.",
+        "NSCameraUsageDescription": "Pour ajouter une photo de profil.",
+        "NSPhotoLibraryUsageDescription": "Pour choisir une photo de profil."
+      }
+    },
+    "android": {
+      "package": "dz.my-Kido.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FBF7F2"
+      },
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "web": { "bundler": "metro" },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-localization",
+      ["expo-secure-store", { "faceIDPermission": "Pour déverrouiller votre compte." }]
+    ],
+    "experiments": { "typedRoutes": true },
+    "extra": {
+      "supabaseUrl": "REPLACE_AT_BUILD",
+      "supabaseAnonKey": "REPLACE_AT_BUILD"
+    }
+  }
+}

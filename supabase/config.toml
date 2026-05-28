@@ -1,0 +1,56 @@
+# Supabase local config. Run `pnpm db:start` after installing the Supabase CLI.
+project_id = "my-app"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 15
+
+[studio]
+enabled = true
+port = 54323
+
+[inbucket]
+enabled = true
+port = 54324
+
+[storage]
+enabled = true
+file_size_limit = "50MiB"
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://localhost:3000/**", "my-app://**"]
+jwt_expiry = 3600
+enable_signup = true
+#enable_confirmations = true
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = true
+
+[auth.email.template.confirmation]
+subject = "Activez votre compte Kido"
+content_path = "./supabase/templates/confirmation.html"
+
+[auth.external.google]
+enabled = false
+client_id = "env(GOOGLE_CLIENT_ID)"
+secret = "env(GOOGLE_CLIENT_SECRET)"
+
+[auth.external.facebook]
+enabled = false
+client_id = "env(FACEBOOK_APP_ID)"
+secret = "env(FACEBOOK_APP_SECRET)"
+
+[edge_runtime]
+enabled = true

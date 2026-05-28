@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@app/ui": ["./packages/ui/src/index.ts"],
+      "@app/ui/*": ["./packages/ui/src/*"],
+      "@app/lib": ["./packages/lib/src/index.ts"],
+      "@app/lib/*": ["./packages/lib/src/*"],
+      "@app/i18n": ["./packages/i18n/src/index.ts"],
+      "@app/i18n/*": ["./packages/i18n/src/*"]
+    }
+  }
+}
